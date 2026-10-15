@@ -20,11 +20,6 @@ social:
   links:
     - https://www.jkfw.jp/
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
 markdown: kramdown
 sass:
   style: compressed
