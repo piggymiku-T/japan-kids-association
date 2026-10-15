@@ -4,7 +4,7 @@ title: よくある質問
 description: 日本キッズ協会への参加方法・対象年齢・費用など。
 permalink: /faq/
 ---
-<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/banner-faq.jpg' | relative_url }}'); background-size: cover; background-position: center;">
+<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/banner-faq.jpg' | relative_url }}'); background-size: cover; background-position: center 30%;">
   <div class="container">
     <p class="section-eyebrow">FAQ</p>
     <h1 class="page-title">よくある質問</h1>
