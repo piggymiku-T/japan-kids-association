@@ -4,7 +4,7 @@ title: 協会について
 description: 日本キッズ協会の理念・沿革・組織情報。
 permalink: /about/
 ---
-<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/banner-about.jpg' | relative_url }}'); background-size: cover; background-position: center;">
+<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/banner-about.jpg' | relative_url }}'); background-size: cover; background-position: center 30%;">
   <div class="container">
     <p class="section-eyebrow">About Us</p>
     <h1 class="page-title">協会について</h1>
