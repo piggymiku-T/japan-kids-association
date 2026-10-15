@@ -4,7 +4,7 @@ title: 活動紹介
 description: Japan Kids Fashion Week をはじめとする日本キッズ協会の活動紹介。
 permalink: /activities/
 ---
-<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/activities.jpg' | relative_url }}'); background-size: cover; background-position: center;">
+<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/activities.jpg' | relative_url }}'); background-size: cover; background-position: center 30%;">
   <div class="container">
     <p class="section-eyebrow">Activities</p>
     <h1 class="page-title">活動紹介</h1>
