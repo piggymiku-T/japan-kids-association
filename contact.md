@@ -4,7 +4,7 @@ title: お問い合わせ
 description: 日本キッズ協会へのお問い合わせ窓口のご案内です。
 permalink: /contact/
 ---
-<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/contact.jpg' | relative_url }}'); background-size: cover; background-position: center;">
+<section class="page-hero" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{ '/assets/images/contact.jpg' | relative_url }}'); background-size: cover; background-position: center 30%;">
   <div class="container">
     <p class="section-eyebrow">Contact</p>
     <h1 class="page-title">お問い合わせ</h1>
