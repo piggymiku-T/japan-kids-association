@@ -231,3 +231,9 @@ ul { padding-left: 1.2em; }
   .jk-cursor, .jk-puff, .jk-ring { display: none !important; }
   .hero-clouds { display: none; }
 }
+/* 禁止在日语助词处换行 */
+p, h1, h2, h3, li {
+  line-break: strict;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
