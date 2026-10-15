@@ -9,12 +9,12 @@
     plane = document.createElement("div");
     plane.className = "jk-cursor";
     plane.setAttribute("aria-hidden", "true");
-    plane.innerHTML =
-      '<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">' +
-        '<path d="M34 6 L8 21 L19 24.5 L23 35 Z" fill="#FFFFFF" stroke="#4FB3E8" stroke-width="1.8" stroke-linejoin="round"/>' +
-        '<path d="M34 6 L8 21 L19 24.5 Z" fill="#FFD93D"/>' +
-        '<path d="M19 24.5 L34 6" stroke="#4FB3E8" stroke-width="1.4" stroke-linecap="round" opacity=".65"/>' +
-      "</svg>";
+plane.innerHTML =
+  '<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">' +
+    '<path d="M4 20 L36 6 L28 34 L20 22 Z" fill="#FFFFFF" stroke="#4FB3E8" stroke-width="1.8" stroke-linejoin="round"/>' +
+    '<path d="M4 20 L36 6 L28 34 Z" fill="#FFD93D"/>' +
+    '<path d="M20 22 L36 6" stroke="#4FB3E8" stroke-width="1.4" stroke-linecap="round" opacity=".65"/>' +
+  "</svg>";
     document.body.appendChild(plane);
     document.body.classList.add("has-custom-cursor");
   }
@@ -24,7 +24,13 @@
   function tick() {
     px += (mx - px) * 0.2;
     py += (my - py) * 0.2;
-    if (plane) plane.style.transform = "translate3d(" + px + "px," + py + "px,0)";
+    if (plane) {
+  var dx = mx - px;
+  var dy = my - py;
+  var angle = Math.atan2(dy, dx) * (180 / Math.PI); // 计算鼠标移动的角度
+  // 飞机本身是指向右上的，所以加上45度偏移让它自然顺着路径飞
+  plane.style.transform = "translate3d(" + px + "px," + py + "px,0) rotate(" + (angle + 45) + "deg)";
+}
     if (Math.abs(mx - px) > 0.25 || Math.abs(my - py) > 0.25) {
       rafId = requestAnimationFrame(tick);
     } else { rafId = null; }
