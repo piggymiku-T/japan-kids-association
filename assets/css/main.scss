@@ -89,7 +89,7 @@ ul { padding-left: 1.2em; }
 }
 .brand:hover .brand-mark { transform: translateY(-3px) rotate(-8deg); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-text strong { font-size: 1.02rem; font-weight: 800; }
+.brand-text strong { font-size: 1.2rem; font-weight: 800; }
 .brand-text small { font-family: var(--font-en); font-size: .68rem; font-weight: 700; color: var(--sky-deep); letter-spacing: .06em; }
 .site-nav ul { display: flex; gap: .3rem; list-style: none; margin: 0; padding: 0; }
 .site-nav a { display: block; padding: .55em 1em; border-radius: 999px; font-size: .92rem; font-weight: 700; color: var(--ink); text-decoration: none; transition: background .2s, color .2s; }
