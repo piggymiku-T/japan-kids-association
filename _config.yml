@@ -1,0 +1,46 @@
+title: 一般社団法人 日本キッズ協会
+title_en: Japan Kids Association
+description: >-
+  次世代を担う子供達が、多くの可能性と選択肢の中から将来の夢や希望を抱き、
+  世界に羽ばたくチャンスを掴み取るための支援活動を行う非営利団体です。
+lang: ja
+timezone: Asia/Tokyo
+
+url: "https://piggymiku-T.github.io"
+baseurl: "/japan-kids-association"
+
+author:
+  name: 一般社団法人 日本キッズ協会
+  email: info@japan-kids-association.com
+
+twitter:
+  card: summary_large_image
+social:
+  name: 一般社団法人 日本キッズ協会
+  links:
+    - https://www.jkfw.jp/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+markdown: kramdown
+sass:
+  style: compressed
+  quiet_deps: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/images/ogp.png
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .github
+  - vendor
+  - node_modules
