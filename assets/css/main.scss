@@ -81,7 +81,12 @@ ul { padding-left: 1.2em; }
 .site-header.is-scrolled { box-shadow: var(--shadow-sm); border-bottom-color: var(--line); }
 .header-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--ink); }
-.brand-mark { flex: 0 0 auto; transition: transform .35s var(--ease); }
+.brand-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 如果logo很大，可以在这里加一点左边距或者缩小上方字体的间距 */
+}
 .brand:hover .brand-mark { transform: translateY(-3px) rotate(-8deg); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong { font-size: 1.02rem; font-weight: 800; }
