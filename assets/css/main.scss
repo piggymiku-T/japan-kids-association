@@ -180,57 +180,53 @@ ul { padding-left: 1.2em; }
 .contact-note { margin-top: 1.4rem; font-size: .88rem; color: var(--ink-soft); }
 
 /* =========================================================
-   Footer (Redesigned for clean layout & peace of mind)
+   Footer (Redesigned with Logo and Icons)
    ========================================================= */
 .site-footer {
   background: #EAF7FF;
   padding: clamp(3rem, 8vw, 5rem) 0 0;
   border-top: 1px solid rgba(135, 206, 235, 0.3);
-  position: relative;
 }
-.site-footer::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #FFD93D, #FF8FA3, #87CEEB, #A8E6CF);
-}
-
 .footer-inner {
   display: grid;
   gap: 2.5rem;
-  grid-template-columns: 1fr; /* 手机端单列 */
+  grid-template-columns: 1fr;
   padding-bottom: 3rem;
   border-bottom: 1px solid rgba(135, 206, 235, 0.3);
 }
-
-.footer-brand strong {
-  font-size: 1.1rem;
-  display: block;
-  margin-bottom: .5em;
-  color: #2C3E50;
+.footer-logo {
+  width: 120px; /* Footer Logo 的大小 */
+  height: auto;
+  margin-bottom: 1rem;
 }
 .footer-brand p {
   color: #5A6B7B;
   font-size: .95rem;
   margin: 0;
 }
-
 .footer-nav-title {
   font-weight: 800;
-  font-size: .85rem;
+  font-size: .9rem;
   color: #4FB3E8;
+  margin-bottom: 1.2rem;
   letter-spacing: .05em;
-  margin-bottom: 1rem;
 }
-
 .footer-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  gap: .9rem;
+}
+.footer-nav li {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.footer-nav svg {
+  color: #87CEEB;
+  flex-shrink: 0;
 }
 .footer-nav a {
   color: #2C3E50;
@@ -242,27 +238,31 @@ ul { padding-left: 1.2em; }
 .footer-nav a:hover {
   color: #4FB3E8;
 }
-
 .footer-contact {
   font-style: normal;
   font-size: .95rem;
   color: #5A6B7B;
 }
-.footer-address {
-  line-height: 1.6;
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
   margin-bottom: 1rem;
+  line-height: 1.6;
 }
-.footer-phone a {
+.footer-info svg {
+  color: #87CEEB;
+  margin-top: .25rem;
+  flex-shrink: 0;
+}
+.footer-info a {
   color: #4FB3E8;
   font-weight: 700;
   text-decoration: none;
-  display: inline-block;
-  margin-bottom: .3rem;
 }
-.footer-phone a:hover {
+.footer-info a:hover {
   text-decoration: underline;
 }
-
 .footer-bottom {
   padding: 1.5rem 0 calc(1.5rem + env(safe-area-inset-bottom));
   text-align: center;
@@ -272,11 +272,9 @@ ul { padding-left: 1.2em; }
   font-size: .85rem;
   color: #5A6B7B;
 }
-
-/* 平板和桌面端的页脚变成三栏布局 */
 @media (min-width: 700px) {
   .footer-inner {
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1.2fr;
     align-items: start;
   }
 }
