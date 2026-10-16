@@ -7,7 +7,7 @@ lang: ja
 timezone: Asia/Tokyo
 
 url: "https://japan-kids-association.com"
-baseurl: "/japan-kids-association"
+baseurl: ""
 
 author:
   name: 一般社団法人 日本キッズ協会
