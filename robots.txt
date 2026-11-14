@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://japan-kids-association.com/sitemap.xml
