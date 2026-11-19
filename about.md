@@ -25,7 +25,7 @@ permalink: /about/
     <table>
       <tr><th>名称</th><td>一般社団法人 日本キッズ協会</td></tr>
       <tr><th>英語名</th><td>Japan Kids Association</td></tr>
-      <tr><th>設立</th><td>2019年</td></tr>
+      <tr><th>設立</th><td>2020年</td></tr>
       <tr><th>所在地</th><td>〒116-0014 東京都荒川区東日暮里6-14-2 SK.BLD 3階</td></tr>
       <tr><th>メール</th><td>info@japan-kids-association.com</td></tr>
     </table>
