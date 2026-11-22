@@ -17,7 +17,7 @@ permalink: /contact/
       <dl class="contact-list">
         <div><dt>メール</dt><dd><a href="mailto:info@japan-kids-association.com">info@japan-kids-association.com</a></dd></div>
         <div><dt>電話</dt><dd>0466-96-0269</dd></div>
-        <div><dt>所在地</dt><dd>〒116-0014<br>東京都荒川区東日暮里6-14-2 SK.BLD 3階</dd></div>
+        <div><dt>所在地</dt><dd>〒116-0014<br>東京都荒川区東日暮里6-14-2 </dd></div>
       </dl>
     </div>
   </div>
